@@ -83,3 +83,11 @@
 
 // 네가지 발음을 통해 나올수있는 경우의 수를 모두 조합한다.
 //  경우의 수배열 안에 입출력 예시 가 있는지 확인한다. 잇으면 count를 플러스 없으면 그대로 둔다.
+카카;
+const newMap = new Map();
+newMap.set("a", 1);
+newMap.set("b", 2);
+
+Array.from(newMap.values()).reduce((acc, cur) => {
+  return acc + cur;
+}, 0);
